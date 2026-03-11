@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            calculator
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table border="1" class="table1">
+            <tr>
+                <td>
+        <table border="0">
+            <tr>
+                <td colspan="4" class="box1">calculator</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="textarea" id="display" readonly></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearDisplay()">C</button></td>
+                <td><button >()</button></td>
+                <td><button onclick="press('%')">%</button></td>
+                <td><button onclick="press('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="press(7)">7</button></td>
+                <td><button onclick="press(8)">8</button></td>
+                <td><button onclick="press(9)">9</button></td>
+                <td><button onclick="press('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="press(4)">4</button></td>
+                <td><button onclick="press(5)">5</button></td>
+                <td><button onclick="press(6)">6</button></td>
+                <td><button onclick="press('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="press(1)">1</button></td>
+                <td><button onclick="press(2)">2</button></td>
+                <td><button onclick="press(3)">3</button></td>
+                <td><button onclick="press('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="press(0)">0</button></td>
+                <td><button onclick="press('.')">.</button></td>
+                <td><button onclick="backspace()"><-</button></td>
+                <td><button onclick="calculate()">=</button></td>
+            </tr>
+        </table></td>
+            </tr>
+        </table>
+        <script src="calculator.js"></script>
+    </body>
+</html>
