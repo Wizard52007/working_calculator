@@ -1,5 +1,5 @@
 *{ margin: 0;padding: 0;}
 .table1 {margin: 100px;}
-button {height: 70px;width: 70px; background-color:bisque;}
+button {height: 70px;width: 70px; background-color:bisque;cursor: pointer;}
 input {height: 70px;width: 280px; font-size: 30px;text-align: right;}
 .box1 {padding: 20px 10px ;font-size: 30px;background-color: rgb(207, 180, 184);}
